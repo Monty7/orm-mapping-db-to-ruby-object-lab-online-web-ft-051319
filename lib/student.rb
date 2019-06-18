@@ -19,6 +19,7 @@ class Student
     
     DB[:conn].execute(sql)
   end
+  
 
   def self.find_by_name(name)
     # find the student in the database given a name
@@ -33,7 +34,7 @@ class Student
   end
   
   self.all_students_in_grade_9
-  
+    
   end
   
   def save
